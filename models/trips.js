@@ -3,7 +3,7 @@ const sequelize = require('../config/connection');
 
 class Trips extends Model {}
 
-Travelers.init({
+Trips.init({
     // add properites here, ex:
     id: {
          type: DataTypes.INTEGER,
@@ -38,4 +38,4 @@ Travelers.init({
     sequelize,
 });
 
-module.exports=Travelers;
+module.exports=Trips;
